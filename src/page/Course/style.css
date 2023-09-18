@@ -1,0 +1,240 @@
+.course {
+    padding: 2% 8%;
+}
+
+.course-recent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.course-recent p {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 30px;
+    font-weight: 300;
+    left: 4px;
+    letter-spacing: 0.6px;
+    line-height: normal;
+}
+
+.course-recent p:nth-child(2) {
+    color: #49bbbd;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar img {
+    width: 70px;
+}
+
+.avatar p {
+    color: #000;
+    font-family: "Poppins", Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.course-recent-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-recent-item {
+    width: 30%;
+    padding: 1%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 18.83px 47.08px #2f327d1a;
+}
+
+.banners {
+    width: 100%;
+    display: flex;
+    /* text-align: left; */
+    justify-content: left;
+}
+
+.banners img {
+    width: 100%;
+}
+
+.course-recent-item p {
+    color: #252641;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 43.2px;
+    white-space: nowrap;
+}
+
+.range {
+    background-color: #d9d9d9;
+    width: 100%;
+    position: relative;
+    height: 10px;
+    margin-top: 3%;
+}
+
+.range span {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 10px;
+    background-color: #49bbbd;
+}
+
+.lesson {
+    display: flex;
+    text-align: right;
+    justify-content: right;
+}
+
+.lesson p {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: "Poppins", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.slider-button {
+    display: flex;
+    justify-content: right;
+    margin-top: 3%;
+}
+
+.chevronleft,
+.chevronright {
+    background-color: #49BBBD;
+    padding: 10px 5px;
+    color: white;
+    width: 50px;
+}
+
+.chevronleft {
+    margin-right: 5px;
+}
+
+.choice-favorite {
+    background-color: #FFF;
+    margin-top: 3%;
+}
+.favorite-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.favorite-item {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.10);
+    width: 20%;
+    padding: 1%;
+    margin: 1% 0;
+}
+
+.favorite-item-font{
+    background-color: rgba(73, 187, 189, 0.30);
+    padding: 10%;
+}
+.favorite-item:nth-child(2) .favorite-item-font  {
+    background-color: rgba(91, 114, 238, 0.30);
+}
+.favorite-item:nth-child(3) .favorite-item-font  {
+    background-color: rgba(157, 204, 255, 0.30);
+}
+.favorite-item:nth-child(4) .favorite-item-font  {
+    background-color:rgba(0, 203, 184, 0.30);
+}
+.favorite-item:nth-child(5) .favorite-item-font  {
+    background-color: rgba(244, 140, 6, 0.30);
+}
+.favorite-item:nth-child(6) .favorite-item-font  {
+    background-color: rgba(238, 100, 91, 0.30);
+}
+.favorite-item:nth-child(7) .favorite-item-font  {
+    background-color: rgba(37, 38, 65, 0.30);
+}
+.marketing-articals {
+    padding: 2% 8%;
+    background-color: white;
+}
+
+.marketing-articals-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marketing-item {
+    width: 20%;
+    padding: 1%;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 18.83px 47.08px 0px rgba(47, 50, 125, 0.10);
+}
+
+.marketing-item-img {
+    width: 100%;
+}
+
+.font-design {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.font-design div {
+    display: flex;
+    align-items: center;
+}
+
+.font-design p {
+    color: #696984;
+    font-family: "Poppins", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+    /* 25.2px */
+    letter-spacing: 0.28px;
+    margin-left: 5px;
+}
+
+.marketing-item span {
+    color: #252641;
+    font-family: "Poppins", Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    text-align: left;
+}
+.marketing-item p{
+    color: #696983;
+    font-family: "Poppins", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0.36px;
+    line-height: 32.4px;
+    display: flex;
+    text-align: left;
+}
+.getchoice{
+    background-color: #FFF;
+}

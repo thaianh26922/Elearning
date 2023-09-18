@@ -1,0 +1,73 @@
+.login-page {
+    padding: 0 20%;
+    margin-top: 10%;
+}
+
+.login-page input {
+    border-radius: 40px;
+    border: 1px solid #49BBBD;
+    background: #FFF;
+    width: 100%;
+    padding: 3%;
+}
+
+.login-page p {
+    display: flex;
+    padding: 0 !important;
+    color: #000;
+    font-family: "Poppins", Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.remember {
+    display: flex;
+}
+
+.remember input {
+    width: 15px;
+}
+
+.remember p {
+    margin-top: 15px;
+}
+
+.remember-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-button {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+.login-button button {
+    cursor: pointer;
+    border-radius: 36px;
+    background: #49BBBD;
+    color: #FFF;
+    padding: 3% 15%;
+}
+.login-social{
+    width: 50%;
+}
+.login-social div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.login-social div p{
+    /* background-color: red; */
+    cursor: pointer;
+    margin-left: 10px;
+}
+.option-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

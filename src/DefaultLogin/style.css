@@ -1,0 +1,86 @@
+.log-big-page {
+    height: 100vh;
+    overflow: hidden;
+    background: #9DCCFF;
+    opacity: .9;
+}
+
+.log-page {
+    display: flex;
+    width: 70%;
+    margin: 5% 15%;
+    height: 70%;
+    background-color: #fff;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+.log-page-banner {
+    width: 50%;
+}
+
+.log-page-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-login {
+    flex: 1;
+    text-align: center;
+}
+
+.content-login h3 {
+    color: #000;
+    font-family: "Poppins", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-login p {
+    color: #5B5B5B;
+    font-family: "Poppins", Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 20%;
+    display: flex;
+    text-align: left;
+    margin-top: 5%;
+    /* background-color: red; */
+}
+
+.choose-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.choose-form div {
+    border-radius: 33px;
+    background: rgba(73, 187, 189, 0.60);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 30%;
+    padding: 2% 2%;
+}
+
+.link {
+    color: white;
+    list-style: none !important;
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 12px;
+
+}
+
+.link:nth-child(1) {
+    background-color: #49BBBD;
+    ;
+
+}
